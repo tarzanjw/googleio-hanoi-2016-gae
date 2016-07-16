@@ -1,0 +1,10 @@
+application: gio-hanoi-2016
+module: default
+version: p2
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: index.php
